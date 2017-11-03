@@ -15,7 +15,7 @@ Create a simple html page `rxjs-demo.html` that will run RxJS:
 <html>
 <head>
   <title>RxJS Demo</title>
-  <script data-main="main"  src="node_modules/requirejs/require.js"></script>
+  <script data-main="main" src="node_modules/requirejs/require.js"></script>
   
   <style>
     .main {
@@ -58,7 +58,7 @@ Congratulations, you've just run RxJS!
 
 Let's create an observable that emits random numbers at random times.
 
-We'll need a random function. Thank you [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random  ).
+We'll need a random function. Thank you [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random).
 ```javascript
   function random(min, max) {
     min = Math.ceil(min);

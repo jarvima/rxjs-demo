@@ -52,11 +52,11 @@ requirejs(['node_modules/@reactivex/rxjs/dist/amd/Rx'], function(Rx) {
   var moreMaker = numberMaker.map(number => number * 1000);
   
   moreMaker.subscribe(function(value) {
-    console.log('1 ## more maker value:', value);
+    console.log('%c1 ## more maker value:', 'color: navy', value);
   });
 
   moreMaker.subscribe(function(value) {
-    console.log('2 ## more maker value:', value);
+    console.log('%c2 ## more maker value:', 'color: green', value);
   });
 
 });
